@@ -20,8 +20,7 @@ Main.java: Contém o método principal que interage com o usuário, coleta as en
 
 ### Desafios e Soluções
 
-1. Leitura de Números Decimais
-2. 
+### 1. Leitura de Números Decimais
 Um dos principais desafios foi fazer com que o programa aceitasse números com pontos decimais (exemplo: 12.5 para a quantidade de combustível). Em algumas configurações de localidade (locale), o Java espera números com vírgulas (ex.: 12,5). Esse problema causava erros na entrada de dados do usuário.
 
 Solução: Para resolver essa questão, defini o Locale como US na classe Main, utilizando o método scanner.useLocale(Locale.US);. Isso permite que o programa aceite números com pontos como separador decimal, garantindo uma entrada de dados mais consistente.
